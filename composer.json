@@ -2,20 +2,21 @@
     "name": "orz14/object-id",
     "description": "A package to generate Object IDs",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Oriz Wahyu N.",
-            "email": "oriezt.id@gmail.com",
-            "website": "https://orzproject.my.id/"
+            "email": "oriezt.id@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=7.4"
-    },
+    "homepage" : "https://github.com/orz14/object-id",
     "autoload": {
         "psr-4": {
             "ObjectId\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
